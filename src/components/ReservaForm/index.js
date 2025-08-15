@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import axios from 'axios';
 import iconclose from '../../img/iconclose.png';
 
-// Fundo do modal
 const Overlay = styled.div`
   position: fixed;
   top: 0; left: 0;
@@ -15,7 +14,6 @@ const Overlay = styled.div`
   z-index: 1000;
 `;
 
-// Caixa do modal
 const Modal = styled.div`
   background-color: #fff;
   padding: 20px;
@@ -25,7 +23,6 @@ const Modal = styled.div`
   box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 `;
 
-// Botão de fechar
 const CloseButton = styled.button`
   position: absolute;
   top: 10px;
@@ -50,7 +47,6 @@ const CloseButton = styled.button`
   }
 `;
 
-// Formulário
 const Form = styled.form`
   display: flex;
   flex-direction: column;
