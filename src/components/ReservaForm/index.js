@@ -91,7 +91,7 @@ function ReservaForm({ onClose }) {
     }
 
     try {
-      await axios.post('http://localhost:5000/api/reservas', {
+      await axios.post('https://backend-burguer.onrender.com/api/reservas', {
         nome,
         data,
         pessoas
