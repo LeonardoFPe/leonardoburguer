@@ -3,7 +3,6 @@ import MainSobre from './components/MainSobre/index'
 import MainCardapio from './components/MainCardapio/index'
 import FooterInformacoes from './components/FooterInformacoes/index'
 import MainSociedade from './components/MainSociedade/index'
-import logoLeo from "../src/img/LogoLeo.png"
 
 function App() {
   return (

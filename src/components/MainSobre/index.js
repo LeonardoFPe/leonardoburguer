@@ -1,4 +1,3 @@
-import React from 'react';
 import SobreImg from '../../img/f26dc45e0e3a8be2dc0d35390c9cacb6.jpg';
 import styled from 'styled-components';
 
